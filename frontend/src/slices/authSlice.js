@@ -1,4 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
+// this take care of localstorage
+
 
 const initialState = {
     userInfo: localStorage.getItem('userInfo')

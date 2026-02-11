@@ -8,7 +8,7 @@ export default defineConfig({
     port: 3000,
     proxy: {
       '/api': {
-        target: 'http://localhost:7000',
+        target: 'https://authentication-app-backend-12ua.onrender.com',
         changeOrigin: true,
         secure: false,
       }
